@@ -21,8 +21,6 @@ class OneirosAutoSender(tk.Tk):
 
         # Set window icon
         self.iconphoto(False, tk.PhotoImage(file='logo.png'))  # Update this with the path to your icon file
-
-        # Set default window size
         self.geometry(f'1600x368') 
 
         # Add canvas for background text
